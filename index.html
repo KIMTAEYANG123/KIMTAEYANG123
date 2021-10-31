@@ -8,7 +8,44 @@
     <link href="./assets/css/index.css" rel="stylesheet"/>
 </head>
 <body>
-    <h1 class="test">구조 잡기</h1>
-    <script src="./assets/js/index.js"></script>
+    
+    <div class="contents">
+        <div>
+            <div class="greeting">
+                <form >
+                    <input class="login" type="text" required max='15' placeholder="이름이 뭐예요?"/>
+                    
+                </form>         
+                <h1 class="hidden"></h1>
+                <button class="hidden">x</button>
+            </div>
+            
+        </div>
+        <div class="weather">
+            
+        </div>
+        <div class="memo">
+            <h1>할 일 리스트</h1>
+            <form class="todosForm">
+                <input  class="todos-value login" type="text" max='15' placeholder="할 일 리스트를 적어요!"/>
+                <input type="submit" value = "추가"/>
+            </form>
+            <div class="list"></div>
+        </div>
+    </div>
+    <footer>
+        <div class="margin-lr"><img src="./assets/images/window.png" alt="win"/></div>
+        <div class="margin-lr"><img src="./assets/images/search.png" alt="win"/></div>
+        <div class="margin-lr"><img src="./assets/images/folder.png" alt="win"/></div>
+        <div class="margin-lr"><img src="./assets/images/chrome.png" alt="win"/></div>
+
+        <div class=" margin-lr time"></div>
+        <div class="margin-lr todos"><img src="./assets/images/memo.png" alt="win"/></div>
+    </footer>
+    <script src="./assets/js/rdnBackground.js"></script>
+    <script src="./assets/js/greeting.js"></script>
+    <script src="./assets/js/todos.js"></script>
+    <script src="./assets/js/clock.js"></script>
+    <script src="./assets/js/weather.js"></script>
 </body>
 </html>
